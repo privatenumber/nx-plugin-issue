@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "square-web",
+  "description": "The monorepo for Square Web",
+  "packageManager": "pnpm@9.11.0",
+  "type": "module",
+  "devDependencies": {
+    "@nx/vite": "20.0.6",
+    "nx": "20.0.6",
+    "tsx": "^4.17.0",
+    "typescript": "~5.5.2"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "darwin",
+        "linux"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    }
+  }
+}

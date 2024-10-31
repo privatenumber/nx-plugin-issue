@@ -1,0 +1,19 @@
+{
+  "name": "@squareup/lib-a",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": "./dist/lib-a.js",
+  "peerDependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@squareup/util-a": "workspace:",
+    "@types/react": "catalog:",
+    "@vitejs/plugin-react-swc": "catalog:",
+    "vite": "catalog:"
+  },
+  "scripts": {
+    "type-check": "tsc"
+  }
+}
