@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "Preserve",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "skipLibCheck": true,
+  },
+  "exclude": ["dist"]
+}
