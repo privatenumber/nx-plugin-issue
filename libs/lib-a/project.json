@@ -5,6 +5,11 @@
 	"projectType": "library",
 	"tags": [],
 	"// targets": "to see all targets run: nx show project lib-a --web",
-	"targets": {}
-  }
-  
+	"targets": {
+		"build": {
+			"dependsOn": ["^build"],
+			"inputs": ["{projectRoot}/src/**/*"],
+			"outputs": ["{projectRoot}/dist"]
+		}
+	}
+}
